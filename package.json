@@ -1,0 +1,41 @@
+{
+  "name": "cosmos-components-next",
+  "version": "0.1.0",
+  "description": "Next version of cosmos-components",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "docz dev",
+    "build": "yarn rollup -c"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/node": "^11.13.8",
+    "@types/react": "^16.8.15",
+    "@types/react-dom": "^16.8.4",
+    "@types/styled-components": "^4.1.14",
+    "babel-core": "^7.0.0-bridge.0",
+    "docz": "^1.0.4",
+    "docz-theme-default": "^1.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "rollup": "^1.10.1",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-filesize": "^6.0.1",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "styled-components": "^4.2.0",
+    "typescript": "^3.4.5"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
