@@ -1,7 +1,7 @@
 {
-  "name": "cosmos-components-next",
+  "name": "docz-error",
   "version": "0.1.0",
-  "description": "Next version of cosmos-components",
+  "description": "docz-error",
   "main": "dist/index.js",
   "license": "MIT",
   "private": true,
