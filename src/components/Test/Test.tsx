@@ -17,5 +17,3 @@ export const Test = () => (
     <Button>Hello</Button>
   </div>
 );
-
-// export default Test;
